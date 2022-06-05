@@ -136,6 +136,9 @@ img{
 .header__btn{
     margin-top: 10px;
 }
+section{
+    height: 50vh;
+}
 /* information section */
 .information{
     background-color: white;
@@ -164,4 +167,52 @@ img{
 }
 .info__text{
     margin-top: 0.8rem;
+}
+/* Quote section */
+
+.quote{
+    background-color: var(--qoute_bg);
+    padding: 4rem;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.quote__text{
+    font-size: var(--qoute_text_size);
+    font-style: italic;
+    font-weight: 100;
+}
+.quote__author{
+    display: block;
+    text-align: right;
+    /* width: 100%; */
+    /* outline: 1px solid red; */
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+   
+}
+/* call to action section */
+.callAction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid red; */
+}
+.callAction__content
+{
+    /* outline: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--btn-clr);
+    padding: 4rem 11rem; 
+    color: var(--logo_clr);
+    border-radius: 10px;
+}
+.call__btn{
+    border: 1px solid var(--logo_clr);
 }
