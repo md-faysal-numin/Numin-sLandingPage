@@ -216,3 +216,15 @@ section{
 .call__btn{
     border: 1px solid var(--logo_clr);
 }
+
+/* footer */
+
+.footer{
+    height: 100px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.34rem;
+    
+}
